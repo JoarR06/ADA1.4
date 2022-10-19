@@ -1,0 +1,142 @@
+
+body{
+	/*width:70%;*/
+    background:url(../img/acuarela.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+	color: black;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:big;
+    text-align: center;
+}
+header{
+    background-color: #d7a3f5; 
+    
+	color:#FFFFFF;
+	padding-top:10px;
+	padding-right:auto;
+	padding-bottom: 10px;
+	padding-left:auto;
+	/*height:100px; */
+	border-bottom: 5px solid  #ffffff;
+
+}
+
+
+section{
+
+        background-color:#FFFFFF;
+        color:#000000;        
+        margin-top:10px;
+        margin-right:auto;
+        margin-bottom:10px;
+        margin-left:auto;
+        border:solid thin #999999
+}
+
+footer{
+    background-color: blue;
+    padding:10px;
+    border-top:5px solid #f5edff;
+    margin-top:20px;
+    background-color:#d37ee9;
+    color:#FFFFFF;
+}
+
+table{
+    color: rgb(18, 18, 19);
+    margin-right: auto;
+    margin-left: auto;
+    width: 600px;
+    
+    
+    
+}
+iframe{
+    margin-right: auto;
+    margin-right: auto;
+    width: 350px;
+    padding: 1em;
+    
+    
+    /* Esquema del formulario */
+    
+}
+p {
+
+    font-family: italic;
+    
+    
+    }
+    ul{
+        font-family: italic;
+    }
+    ol{
+        font-family: italic;
+    }
+
+nav li{
+        display:inline;
+        list-style-type:none;
+        margin:0 10px 0 10px;
+    }
+    
+nav a{
+        color:#000000;
+        background-color:#afddf8;
+        padding:8px 16px 8px 16px;
+        border: 1px solid #a2d0f0;
+        text-decoration:none;
+    }  
+    video{
+        width: 350px;
+    }  
+
+nav a:hover
+    {
+        text-decoration:none;
+        color:#000000;
+        background-color:#FFFFFF;
+        padding-bottom:10px;
+        border-bottom:none;
+    }
+
+nav ul {
+    display:flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+}
+
+nav li{
+    padding: 15px;
+}
+
+section li{
+    text-align: left;
+    width: 80%;
+    margin-left: 40%;
+}
+
+section table{
+    text-align: center;
+    width: 80%;
+    margin-left: 40%;
+    
+}
+
+em{
+    color:rgb(17, 17, 17);
+}
+
+strong{
+    color: red;
+}
+
+h1{
+    color: rgb(15, 15, 187);
+}
+h2{
+    color: fuchsia; 
+}

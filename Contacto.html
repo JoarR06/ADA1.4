@@ -1,0 +1,124 @@
+<!doctype html>
+<html lang="es">	
+  <head>
+	 <meta charset="utf-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	 <title> Principal </title>
+
+    <link rel="css/style.css"  type="text/css" href="min-width:380px"> 
+    <link rel="stylesheet" type="text/css" href="css/form.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css"> 
+
+    <script type="text/javascript">
+      function validar(){
+        var form = document.form;
+        if(form.nombre.value==0){
+          alert("No");
+          form.nombre.value="";
+          form.nombre.focus();
+          return false;
+        }
+
+      }
+      
+    </script>
+    <script>
+      function alerta(){
+        alert("Hola");
+      }
+      
+    </script>
+   
+  </head>
+  <body>
+	 <header>
+    <nav>
+      <ul>
+        <li><a href="Index.html">Inicio</a></li>
+        <li><a href="Autobiografia.html">Autobiografia</a></li>
+        <li><a href="Galeria.html">Galeria</a></li>
+        <li><a href="Contacto.html">Contacto</a></li>
+        <li><a href="Cuestionario.html">Cuestionario</a></li>
+      </ul>
+    </nav>
+  </header>
+  <h1> Contacto </h1>
+
+  <form id="contacto" name="contacto" method="post" action="procesa.php" target="_blank" id="form">
+
+  
+      <fieldset>
+        <legend>Informacion personal</legend>
+            <div >
+              <input class="form-control item" type="text" name="Nombre" maxlength="15" minlength="4" pattern="^[a-zA-Z_.-]*$" id="Nombre" placeholder="Nombre" required>
+            </div><br>
+            <div >
+              <input class="form-control item" type="text" name="Apellido" maxlength="15" minlength="4" pattern="^[a-zA-Z_.-]*$" id="Apellido" placeholder="Apellido" required>
+            </div><br>
+           
+            <div>
+                <input class="form-control item" type="email" name="email" id="email" placeholder="Email" required>
+            </div><br>
+      
+      </fieldset>
+      <fieldset>
+        <legend>Género</legend>
+          <input type="radio" name="radio1" id="radioM" required> Masculino
+          <input type="radio" name="radio1" id="radioF" required> Femenino
+           
+      </fieldset>
+
+      <fieldset>
+        <legend>Nivel de estudio</legend>
+          <input type="radio" name="radio2" id="radioS" required> Secundaria
+          <input type="radio" name="radio2" id="radioB" required> Bachillerato
+          <input type="radio" name="radio2" id="radioL" required> Licenciatura
+      </fieldset>
+
+      <fieldset>
+        <legend>Musica Favorita</legend>
+        <label>Selecciona un tipo de musica:
+        <input list="musica" name="MiMusica" required></label>
+        <datalist id="musica" required>
+        <option value="Regueton" required>
+        <option value="Rock" required>
+        <option value="Pop" required>
+        <option value="Electronica" required>
+        <option value="Techno" required>
+        <option value="Rap" required>
+        <option value="R&B" required>
+        </datalist>
+      </fieldset>
+
+      <fieldset>
+        <legend>Navegador usado</legend>
+        <label>Selecciona el Buscador utilizado:
+        <input list="buscadores" name="MisBuscadores" required></label>
+        <datalist id="buscadores" required>
+        <option value="Chrome" required>
+        <option value="Firefox" required>
+        <option value="Internet Explorer" required>
+        <option value="Opera" required>
+        <option value="Safari" required>
+        <option value="Microsoft Edge" required>
+        </datalist>
+      </fieldset>
+
+        
+          <button>Enviar</button>
+        
+
+      
+
+    </form>
+
+  <footer>
+    Joar Honorio Ruiz Peraza<br>
+    Didier Andrey Tec Esquivel
+  </footer>
+  </body>
+</html>
+
+
+

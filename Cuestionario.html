@@ -1,0 +1,210 @@
+<!doctype html>
+<html lang="es">	
+  <head>
+	 <meta charset="utf-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	 <title> Principal </title>
+
+    <link rel="css/style.css"  type="text/css" href="min-width:380px"> 
+    <link rel="stylesheet" type="text/css" href="css/form.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css"> 
+
+    <script type="text/javascript">
+      function res1(){
+          var respuesta = document.getElementById(`respuesta1`);
+          var resultado = document.getElementById(`resultado1`);
+
+          if(respuesta.value === "Descartes")
+                  resultado.innerHTML = "Correcto";
+          else resultado.innerHTML = "Incorrecto";
+      }
+      function res2(){
+          var respuesta = document.getElementById(`respuesta2`);
+          var resultado = document.getElementById(`resultado2`);
+
+          if(respuesta.value === "Rusia")
+                  resultado.innerHTML = "Correcto";
+          else resultado.innerHTML = "Incorrecto";
+      }
+      function res3(){
+          var respuesta = document.getElementById(`respuesta3`);
+          var resultado = document.getElementById(`resultado3`);
+
+          if(respuesta.value === "Argentina")
+                  resultado.innerHTML = "Correcto";
+          else resultado.innerHTML = "Incorrecto";
+      }
+      function res4(){
+          var respuesta = document.getElementById(`respuesta4`);
+          var resultado = document.getElementById(`resultado4`);
+
+          if(respuesta.value === "Paleolítico")
+                  resultado.innerHTML = "Correcto";
+          else resultado.innerHTML = "Incorrecto";
+      }
+      function res5(){
+          var respuesta = document.getElementById(`respuesta5`);
+          var resultado = document.getElementById(`resultado5`);
+
+          if(respuesta.value === "Sócrates")
+                  resultado.innerHTML = "Correcto";
+          else resultado.innerHTML = "Incorrecto";
+      }
+      function res6(){
+          var respuesta = document.getElementById(`respuesta6`);
+          var resultado = document.getElementById(`resultado6`);
+
+          if(respuesta.value === "Aconcagua")
+                  resultado.innerHTML = "Correcto";
+          else resultado.innerHTML = "Incorrecto";
+      }
+      function res7(){
+          var respuesta = document.getElementById(`respuesta7`);
+          var resultado = document.getElementById(`resultado7`);
+
+          if(respuesta.value === "Cristianismo")
+                  resultado.innerHTML = "Correcto";
+          else resultado.innerHTML = "Incorrecto";
+      }
+      function res8(){
+          var respuesta = document.getElementById(`respuesta8`);
+          var resultado = document.getElementById(`resultado8`);
+
+          if(respuesta.value === "Canberra")
+                  resultado.innerHTML = "Correcto";
+          else resultado.innerHTML = "Incorrecto";
+      }
+      function res9(){
+          var respuesta = document.getElementById(`respuesta9`);
+          var resultado = document.getElementById(`resultado9`);
+
+          if(respuesta.value === "Arterias")
+                  resultado.innerHTML = "Correcto";
+          else resultado.innerHTML = "Incorrecto";
+      }
+      function res10(){
+          var respuesta = document.getElementById(`respuesta10`);
+          var resultado = document.getElementById(`resultado10`);
+
+          if(respuesta.value === "Indonesia")
+                  resultado.innerHTML = "Correcto";
+          else resultado.innerHTML = "Incorrecto";
+      }
+      
+  </script>
+   
+  </head>
+  <body>
+	 <header>
+    <nav>
+      <ul>
+        <li><a href="Index.html">Inicio</a></li>
+        <li><a href="Autobiografia.html">Autobiografia</a></li>
+        <li><a href="Galeria.html">Galeria</a></li>
+        <li><a href="Contacto.html">Contacto</a></li>
+        <li><a href="Cuestionario.html">Cuestionario</a></li>
+      </ul>
+    </nav>
+  </header>
+  <h1> Contacto </h1>
+
+  <form id="contacto" name="contacto" method="post" action="procesa.php" target="_blank">
+
+  
+      
+          
+      <fieldset>
+        <h4>Pregunta 1 </h4>
+        <p>¿Quién es el autor de la frase "Pienso, luego existo"?</p>
+        <input type="text" id="respuesta1" placeholder="responda aqui">
+        <button type="button" onclick="res1()">Consultar</button>
+        <p><div id="resultado1"></div></p>
+      </fieldset>
+        
+      <fieldset>
+        <h4>Pregunta  2</h4>
+        <p>¿Cuál es el país más grande del mundo?</p>
+        <input type="text" id="respuesta2" placeholder="responda aqui">
+        <button type="button" onclick="res2()">Consultar</button>
+        <p><div id="resultado2"></div></p>
+      </fieldset>
+
+      <fieldset>
+        <h4>Pregunta 3</h4>
+        <p>¿Cuál es la nacionalidad de Jorge Mario Bergoglio?</p>
+        <input type="text" id="respuesta3" placeholder="responda aqui">
+        <button type="button" onclick="res3()">Consultar</button>
+        <p><div id="resultado3"></div></p>
+      </fieldset>
+
+      <fieldset>
+        <h4>Pregunta 4</h4>
+        <p>¿En qué periodo de la prehistoria fue descubierto el fuego?</p>
+        <input type="text" id="respuesta4" placeholder="responda aqui">
+        <button type="button" onclick="res4()">Consultar</button>
+        <p><div id="resultado4"></div></p>
+      </fieldset>
+
+      <fieldset>
+        <h4>Pregunta 5</h4>
+        <p>¿A quién se le atribuye la frase "Solo sé que no sé nada"?</p>
+        <input type="text" id="respuesta5" placeholder="responda aqui">
+        <button type="button" onclick="res5()">Consultar</button>
+        <p><div id="resultado5"></div></p>
+      </fieldset>
+
+      <fieldset>
+        <h4>Pregunta 6 </h4>
+        <p>¿Cuál es la montaña más alta del continente americano?</p>
+        <input type="text" id="respuesta6" placeholder="responda aqui">
+        <button type="button" onclick="res6()">Consultar</button>
+        <p><div id="resultado6"></div></p>
+      </fieldset>
+        
+      <fieldset>
+        <h4>Pregunta  7</h4>
+        <p>¿Cuál es la religión monoteísta que cuenta con el mayor número de adeptos en el mundo?
+        </p>
+        <input type="text" id="respuesta7" placeholder="responda aqui">
+        <button type="button" onclick="res7()">Consultar</button>
+        <p><div id="resultado7"></div></p>
+      </fieldset>
+
+      <fieldset>
+        <h4>Pregunta 8</h4>
+        <p>¿Cuál es la capital de Australia?</p>
+        <input type="text" id="respuesta8" placeholder="responda aqui">
+        <button type="button" onclick="res8()">Consultar</button>
+        <p><div id="resultado8"></div></p>
+      </fieldset>
+
+      <fieldset>
+        <h4>Pregunta 9</h4>
+        <p>¿Cómo se llaman los vasos que transportan la sangre desde el corazón al resto del cuerpo?</p>
+        <input type="text" id="respuesta9" placeholder="responda aqui">
+        <button type="button" onclick="res9()">Consultar</button>
+        <p><div id="resultado9"></div></p>
+      </fieldset>
+
+      <fieldset>
+        <h4>Pregunta 10</h4>
+        <p>¿Cuál es el mayor archipiélago de la Tierra?</p>
+        <input type="text" id="respuesta10" placeholder="responda aqui">
+        <button type="button" onclick="res10()">Consultar</button>
+        <p><div id="resultado10"></div></p>
+      </fieldset>
+
+    </form>
+
+    
+
+  <footer>
+    Joar Honorio Ruiz Peraza<br>
+    Didier Andrey Tec Esquivel
+  </footer>
+  </body>
+</html>
+
+
+
